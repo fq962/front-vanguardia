@@ -3,10 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './pages/components/home/home.component';
+import { MascotasFormComponent } from './pages/components/mascotas-form/mascotas-form.component';
+import { MascotasListComponent } from './pages/components/mascotas-list/mascotas-list.component';
+import { NavigationComponent } from './pages/components/navigation/navigation.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    MascotasListComponent,
+    MascotasFormComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
